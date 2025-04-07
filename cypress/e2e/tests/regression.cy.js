@@ -6,15 +6,15 @@ import shippingNotices from "../../support/menuShippingNotices.js";
 import returns from "../../support/menuReturns.js";
 
 describe('Regression', () => {
-    /*it('Login with correct credentials', () => {
+    it('Login with correct credentials', () => {
         login.enterURL();
         login.putEmail();
         login.putPass();
         login.clickLoginBtn();
         login.successLoginBanner(cy.wait(300));
-    });*/
+    });
 
-    /*it('Valitating left Menu Dashboard', () => {
+    it('Valitating left Menu Dashboard', () => {
         login.enterURL();
         login.putEmail();
         login.putPass();
@@ -45,7 +45,7 @@ describe('Regression', () => {
         dashboard.graphigTableSix();
         dashboard.graphigTableSeven();
 
-    });*/
+    });
 
     it('Valitating left Menu Orders Monitor', () => {
         login.enterURL();
